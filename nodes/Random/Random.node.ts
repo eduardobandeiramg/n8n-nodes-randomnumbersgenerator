@@ -23,12 +23,6 @@ export class Random implements INodeType {
         },
         inputs: ['main'],
         outputs: ['main'],
-        credentials: [
-            {
-                name: 'random',
-                required: true,
-            },
-        ],
         // Basic node details will go here
         properties: [
             {
