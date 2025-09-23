@@ -24,52 +24,23 @@ export class Random implements INodeType {
         inputs: ['main'],
         outputs: ['main'],
         // Basic node details will go here
+        // Corrigir properties
         properties: [
             {
-                displayName: 'Valor mínimo',
+                displayName: 'Min',
                 name: 'min',
                 type: 'number',
+                default: 1,
+                description: 'Número mínimo do intervalo (inclusivo)',
                 required: true,
-                typeOptions: {
-                    maxValue: 10,
-                    minValue: 0,
-                    numberPrecision: 1,
-                },
-                default: 10.00,
-                description: 'Your current amount',
-                displayOptions: { // the resources and operations to display this element with
-                    show: {
-                        resource: [
-                            // comma-separated list of resource names
-                        ],
-                        operation: [
-                            // comma-separated list of operation names
-                        ]
-                    }
-                },
             },
             {
-                displayName: 'Valor máximo',
+                displayName: 'Max',
                 name: 'max',
                 type: 'number',
+                default: 100,
+                description: 'Número máximo do intervalo (inclusivo)',
                 required: true,
-                typeOptions: {
-                    maxValue: 10,
-                    minValue: 0,
-                    numberPrecision: 1,
-                },
-                default: 10.00,
-                description: 'Your current amount',
-                displayOptions: { // the resources and operations to display this element with
-                    show: {
-                        resource: [
-                            // comma-separated list of resource names
-                        ],
-                        operation: [
-                            // comma-separated list of operation names
-                        ]
-                    }
-                },
             },
             {
                 displayName: 'Operation',
