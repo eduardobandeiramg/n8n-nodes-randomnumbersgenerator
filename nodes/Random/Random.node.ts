@@ -24,7 +24,6 @@ export class Random implements INodeType {
         inputs: ['main'],
         outputs: ['main'],
         // Basic node details will go here
-        // Corrigir properties
         properties: [
             {
                 displayName: 'Min',
@@ -42,8 +41,8 @@ export class Random implements INodeType {
                 description: 'Número máximo do intervalo (inclusivo)',
                 required: true,
             },
-/*             {
-                //displayName: 'Operation',
+            {
+                displayName: 'Operation',
                 name: 'operation',
                 type: 'options',
                 options: [
@@ -54,7 +53,7 @@ export class Random implements INodeType {
                     },
                 ],
                 default: 'trueRandom',
-            }, */
+            },
             // Resources and operations will go here
         ],
     };
@@ -63,8 +62,6 @@ export class Random implements INodeType {
     async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
         const items = this.getInputData();
         const returnData: INodeExecutionData[] = [];
-
-        // Se não houver itens, ainda assim executa uma vez (com índice 0)
         const iterations = items.length === 0 ? 1 : items.length;
 
         for (let i = 0; i < iterations; i++) {
@@ -82,7 +79,6 @@ export class Random implements INodeType {
 
                 const url = `https://www.random.org/integers/?num=1&min=${min}&max=${max}&col=1&base=10&format=plain&rnd=new`;
 
-                // this.helpers.request está disponível no runtime do n8n
                 const responseBody = (await (this.helpers as any).request({
                     method: 'GET',
                     uri: url,
