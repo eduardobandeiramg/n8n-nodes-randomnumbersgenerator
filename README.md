@@ -25,11 +25,12 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 `npm install`    
 `npm run build`    
 `chmod +x deploy-node.sh`    
-`deploy-node.sh`    
+`./deploy-node.sh`    
 `docker-compose up`    
 5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678".   
-6. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
-7. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.   
+6. Faça um cadastro fantasia (ou login se já tiver feito) para acessar a interface do n8n.   
+7. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
+8. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.   
 ## Passo a passo - Windows
 Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 1. Clone este repositório:    
@@ -41,11 +42,12 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 `npm install`    
 `npm run build`    
 `chmod +x deploy-node.sh`    
-`deploy-node.sh`    
+`./deploy-node.sh`    
 `docker-compose up`    
 5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678"
-6. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
-7. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.    
+6. Faça um cadastro fantasia (ou login se já tiver feito) para acessar a interface do n8n.   
+7. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
+8. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.    
 
 
 <!--
