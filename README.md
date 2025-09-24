@@ -17,26 +17,26 @@ Para executar o n8n localmente, é necessário que você tenha instalado no seu 
 ## Passo a passo - Mac ou Linux
 Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 1. Clone este repositório:    
-  1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório
+  1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório.   
   1.2. Execute o comando `git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git`
-2. Abra o Docker Desktop (pode deixar minimizado)
-3. Abra o projeto na sua IDE de preferência
+2. Abra o Docker Desktop (pode deixar minimizado).   
+3. Abra o projeto na sua IDE de preferência.   
 4. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:    
 `npm install`    
 `npm run build`    
 `chmod +x deploy-node.sh`    
 `deploy-node.sh`    
 `docker-compose up`    
-5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678"
-6. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)
-7. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados
+5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678".   
+6. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
+7. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.   
 ## Passo a passo - Windows
 Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 1. Clone este repositório:    
-  1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório
+  1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório.   
   1.2. Execute o comando `git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git`
-2. Abra o Docker Desktop (pode deixar minimizado)
-3. Abra o projeto na sua IDE de preferência
+2. Abra o Docker Desktop (pode deixar minimizado).   
+3. Abra o projeto na sua IDE de preferência.   
 4. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:    
 `npm install`    
 `npm run build`    
@@ -44,8 +44,8 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 `deploy-node.sh`    
 `docker-compose up`    
 5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678"
-6. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)
-7. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados
+6. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
+7. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.    
 
 
 <!--
