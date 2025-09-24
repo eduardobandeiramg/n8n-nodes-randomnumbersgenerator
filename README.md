@@ -11,9 +11,9 @@ O componente desenvolvido trata-se de uma possível etapa do fluxo de automaçã
 ## Como executar
 ### Pré-requisitos
 Para executar o n8n localmente, é necessário que você tenha instalado no seu computador as seguintes ferramentas:
-* [Git](https://git-scm.com/downloads)
-* [Node.js](https://nodejs.org/en/download)
-* [Docker](https://www.docker.com)
+* <a href="https://git-scm.com/downloads" target="_blank">Git</a>
+* <a href="https://nodejs.org/en/download" target="_blank">Node.js</a>
+* <a href="https://www.docker.com" target="_blank">Docker</a>
 ## Passo a passo - Mac ou Linux
 Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 1. Clone este repositório:
