@@ -2,7 +2,7 @@
 ## O que é n8n
 N8n é uma ferramenta de automação extremamente completa e intuitiva, onde cada passo do fluxo da automação é representado por um nodo, que pode ser arrastado para o quadro para ser adicionado ao fluxo.   
 Um nodo pode ser uma integração a um serviço externo, uma chamada a uma API, um script simples, um envio de mensagem, etc. Para além de tudo isso, a plataforma oferece a possibilidade de se desenvolver um nodo de forma detalhada e 100% customizável, para utilizá-lo localmente ou disponibilizá-lo para toda a comunidade do n8n poder utilizar.   
-Neste projeto, o nodo será utilizado apenas localmente, por meio da ferramenta de containirização 'Docker'.   
+Neste projeto, o nodo será utilizado apenas localmente, por meio da ferramenta de conteinerização 'Docker'.   
 
 ## O nodo desenvolvido
 Este projeto trata-se de um nodo customizado da ferramenta n8n, desenvolvido programaticamente.   
@@ -25,8 +25,8 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 `npm install`    
 `npm run build`    
 `docker-compose up`    
-5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678".   
-6. Faça um cadastro fantasia (ou login se já tiver feito) para acessar a interface do n8n.   
+5. Abra o navegador (de preferência Chrome ou Firefox) e navegue para: "http://localhost:5678".   
+6. Faça um cadastro fantasia para acessar a interface do n8n.   
 7. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
 8. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.     
 
