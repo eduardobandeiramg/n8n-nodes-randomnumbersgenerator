@@ -16,7 +16,7 @@ Para executar o n8n localmente, é necessário que você tenha instalado no seu 
 * <a href="https://www.docker.com" target="_blank">Docker</a>
 ## Passo a passo - Mac ou Linux
 Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
-1. Clone este repositório:
+1. Clone este repositório:    
   1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório
   1.2. Execute o comando `git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git`
 2. Abra o Docker Desktop (pode deixar minimizado)
@@ -32,7 +32,7 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 7. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados
 ## Passo a passo - Windows
 Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
-1. Clone este repositório:
+1. Clone este repositório:    
   1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório
   1.2. Execute o comando `git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git`
 2. Abra o Docker Desktop (pode deixar minimizado)
