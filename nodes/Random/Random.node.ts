@@ -42,8 +42,8 @@ export class Random implements INodeType {
                 description: 'Número máximo do intervalo (inclusivo)',
                 required: true,
             },
-            {
-                displayName: 'Operation',
+/*             {
+                //displayName: 'Operation',
                 name: 'operation',
                 type: 'options',
                 options: [
@@ -54,7 +54,7 @@ export class Random implements INodeType {
                     },
                 ],
                 default: 'trueRandom',
-            },
+            }, */
             // Resources and operations will go here
         ],
     };
