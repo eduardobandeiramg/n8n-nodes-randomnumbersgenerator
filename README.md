@@ -1,17 +1,46 @@
+# Random Number Generator
+## O que é n8n
+N8n é uma ferramenta de automação extremamente completa e intuitiva, onde cada passo do fluxo da automação é representado por um nodo, que pode ser arrastado para o quadro para ser adicionado ao fluxo.   
+Um nodo pode ser uma integração a um serviço externo, uma chamada a uma API, um script simples, um envio de mensagem, etc. Para além de tudo isso, a plataforma oferece a possibilidade de se desenvolver um nodo de forma detalhada e 100% customizável, para utilizá-lo localmente ou disponibilizá-lo para toda a comunidade do n8n poder utilizar.   
+Neste projeto, o nodo será utilizado apenas localmente, por meio da ferramenta de containirização 'Docker'.   
+
+## O nodo desenvolvido
+Este projeto trata-se de um nodo customizado da ferramenta n8n, desenvolvido programaticamente.   
+O componente desenvolvido trata-se de uma possível etapa do fluxo de automação onde o criador deste deseja gerar um número inteiro aleatório dentro de um intervalo que ele pode definir. O usuário do nodo define o menor e o maior valor do intervalo e, ao ser executado, este comunica com a API [Random.org](https://www.random.org) para que esta gere o número aleatório e o retorne para o nodo, podendo ser utilizado para qualquer objetivo nas etapas seguintes do fluxo.
+
+## Como executar
+### Pré-requisitos
+Para executar o n8n localmente, é necessário que você tenha instalado no seu computador as seguintes ferramentas:
+* [Git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/en/download)
+* [Docker](https://www.docker.com)
+## Passo a passo
+Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
+1. Clone este repositório:
+  1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório
+  1.2. Execute o comando `git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git`
+2. Abra o Docker Desktop (pode deixar minimizado)
+3. Abra o projeto na sua IDE de preferência
+4. Na raiz do projeto, execute os seguintes comandos:
+`npm install`    
+`npm run build`    
+`chmod +x deploy-node.sh`
+`docker-compose up`
+5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678"
+6. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)
+
+
+<!--
+# README do template-base do projeto:
+</br>
+</br>
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
-
 # n8n-nodes-starter
-
 This repo contains example nodes to help you get started building your own custom integrations for [n8n](https://n8n.io). It includes the node linter and other dependencies.
-
 To make your custom node available to the community, you must create it as an npm package, and [submit it to the npm registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry).
-
 If you would like your node to be available on n8n cloud you can also [submit your node for verification](https://docs.n8n.io/integrations/creating-nodes/deploy/submit-community-nodes/).
-
 ## Prerequisites
-
 You need the following installed on your development machine:
-
 * [git](https://git-scm.com/downloads)
 * Node.js and npm. Minimum version Node 20. You can find instructions on how to install both using nvm (Node Version Manager) for Linux, Mac, and WSL [here](https://github.com/nvm-sh/nvm). For Windows users, refer to Microsoft's guide to [Install NodeJS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows).
 * Install n8n with:
@@ -19,11 +48,8 @@ You need the following installed on your development machine:
   npm install n8n -g
   ```
 * Recommended: follow n8n's guide to [set up your development environment](https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/).
-
 ## Using this starter
-
 These are the basic steps for working with the starter. For detailed guidance on creating and publishing nodes, refer to the [documentation](https://docs.n8n.io/integrations/creating-nodes/).
-
 1. [Generate a new repository](https://github.com/n8n-io/n8n-nodes-starter/generate) from this template repository.
 2. Clone your new repo:
    ```
@@ -38,11 +64,8 @@ These are the basic steps for working with the starter. For detailed guidance on
 9. Replace this README with documentation for your node. Use the [README_TEMPLATE](README_TEMPLATE.md) to get started.
 10. Update the LICENSE file to use your details.
 11. [Publish](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry) your package to npm.
-
 ## More information
-
 Refer to our [documentation on creating nodes](https://docs.n8n.io/integrations/creating-nodes/) for detailed information on building your own nodes.
-
 ## License
-
 [MIT](https://github.com/n8n-io/n8n-nodes-starter/blob/master/LICENSE.md)
+-->
