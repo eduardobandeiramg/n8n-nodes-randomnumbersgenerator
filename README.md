@@ -21,7 +21,7 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
   1.2. Execute o comando `git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git`
 2. Abra o Docker Desktop (pode deixar minimizado)
 3. Abra o projeto na sua IDE de preferência
-4. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:
+4. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:    
 `npm install`    
 `npm run build`    
 `chmod +x deploy-node.sh`    
@@ -37,7 +37,7 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
   1.2. Execute o comando `git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git`
 2. Abra o Docker Desktop (pode deixar minimizado)
 3. Abra o projeto na sua IDE de preferência
-4. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:
+4. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:    
 `npm install`    
 `npm run build`    
 `chmod +x deploy-node.sh`    
