@@ -14,7 +14,7 @@ Para executar o n8n localmente, é necessário que você tenha instalado no seu 
 * <a href="https://git-scm.com/downloads" target="_blank">Git</a>
 * <a href="https://nodejs.org/en/download" target="_blank">Node.js</a>
 * <a href="https://www.docker.com" target="_blank">Docker</a>
-## Passo a passo - Mac ou Linux
+## Passo a passo - Windows, Mac ou Linux
 Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 1. Clone este repositório:    
   1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório.   
@@ -24,30 +24,11 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 4. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:    
 `npm install`    
 `npm run build`    
-`chmod +x deploy-node.sh`    
-`./deploy-node.sh`    
 `docker-compose up`    
 5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678".   
 6. Faça um cadastro fantasia (ou login se já tiver feito) para acessar a interface do n8n.   
 7. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
-8. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.   
-## Passo a passo - Windows
-Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
-1. Clone este repositório:    
-  1.1. Abra o terminal do seu computador na pasta onde deseja armazenar o repositório.   
-  1.2. Execute o comando `git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git`
-2. Abra o Docker Desktop (pode deixar minimizado).   
-3. Abra o projeto na sua IDE de preferência.   
-4. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:    
-`npm install`    
-`npm run build`    
-`chmod +x deploy-node.sh`    
-`./deploy-node.sh`    
-`docker-compose up`    
-5. Abra o navegador (de preferência Chrome ou Firefox) e navega para: "http://localhost:5678"
-6. Faça um cadastro fantasia (ou login se já tiver feito) para acessar a interface do n8n.   
-7. O nodo 'Random' estará disponível dentre as opções na janela lateral direita! =)   
-8. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.    
+8. Para pausar, digite as teclas 'control' + 'c' no terminal onde os comandos foram executados.     
 
 
 <!--
