@@ -1,4 +1,4 @@
-# Random Number Generator
+# Random Numbers Generator
 ## O que é n8n
 N8n é uma ferramenta de automação extremamente completa e intuitiva, onde cada passo do fluxo da automação é representado por um nodo, que pode ser arrastado para o quadro para ser adicionado ao fluxo.   
 Um nodo pode ser uma integração a um serviço externo, uma chamada a uma API, um script simples, um envio de mensagem, etc. Para além de tudo isso, a plataforma oferece a possibilidade de se desenvolver um nodo de forma detalhada e 100% customizável, para utilizá-lo localmente ou disponibilizá-lo para toda a comunidade do n8n poder utilizar.   
