@@ -27,7 +27,7 @@ services:
       - postgres
     volumes:
       - n8n_data:/home/node/.n8n
-      - ./dist:/home/node/.n8n/custom/my-node
+      - ./dist:/home/node/.n8n/custom/n8n-nodes-randomnumbersgenerator
 
 volumes:
   pgdata:
