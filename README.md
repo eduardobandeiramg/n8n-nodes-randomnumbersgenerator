@@ -27,8 +27,9 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
 5. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:    
 ```
 npm install
-```    
-```npm run build
+```
+```
+npm run build
 ```    
 ```
 docker-compose up
