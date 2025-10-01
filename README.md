@@ -23,7 +23,7 @@ Uma vez instaladas as ferramentas necessárias, siga as seguintes etapas:
    git clone https://github.com/eduardobandeiramg/n8n-nodes-randomnumbersgenerator.git
     ```
 3. Abra o Docker Desktop (pode deixar minimizado).   
-4. Abra o projeto na sua IDE de preferência.   
+4. Abra o projeto na sua IDE de preferência. Opcional: se quiser, sinta-se à vontade para alterar os valores de usuário e senha presentes no arquivo ".env". Idealmente, esse arquivo não seria versionado e deveria ser criado localmente, mas está sendo versionado para diminuir a quantidade de passos necessários para a execução. =)    
 5. Na raiz do projeto, execute os seguintes comandos, sempre aguardando pelo final da execução antes de executar o próximo:    
 ```
 npm install
